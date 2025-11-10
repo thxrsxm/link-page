@@ -1,0 +1,79 @@
+/* Body */
+body {
+	background: rgb(0, 0, 0);
+	background: linear-gradient(
+		0deg,
+		rgba(0, 112, 192, 1) 0%,
+		rgba(0, 112, 192, 1) 0%,
+		rgba(0, 0, 0, 1) 100%	
+	);
+	background-repeat: no-repeat;
+	height: 100%;
+	min-height: 100vh;
+}
+
+/* Profile Image */
+.profileImage {
+	border-radius: 50%;
+}
+
+.profileImageContainer {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	height: 150px;
+	margin-top: 8%;
+}
+
+/* Name */
+.name {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	color: rgb(243, 236, 236);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5rem;
+}
+
+/* Button */
+.button {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 450px;
+	margin: auto auto;
+}
+
+.button a.featured:hover,
+.button a:hover {
+	background-color: rgb(0, 112, 192);
+	color: rgb(255, 255, 255);
+	border-color: rgb(255, 255, 255);
+}
+
+.button a {
+	font-size: 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 450px;
+	width: 100%;
+	margin: 0 auto 15px;
+	padding: 15px 20px; 
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+	border: 2px solid rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+}
+
+.button a.featured {
+	position: relative;
+}
+
+/* Info Text */
+#infoText {
+	color: rgb(255, 255, 255);
+	text-align: center;
+	margin-top: 1rem;
+}
